@@ -1,22 +1,23 @@
 {
-  "name": "material-start",
-  "private": true,
-  "version": "0.0.3",
-  "description": "A starter project for AngularJS Material",
-  "repository": "https://github.com/angular/material-start",
-  "license": "MIT",
-  "devDependencies": {
-    "karma": "~0.10",
-    "protractor": "^2.0.0",
-    "http-server": "^0.6.1",
-    "bower": "^1.3.1",
-    "shelljs": "^0.2.6",
-    "karma-junit-reporter": "^0.2.2",
-    "selenium-webdriver": "^2.45.1"
-  },
+  "name": "escola-de-ferias",
+  "version": "0.0.0",
+  "description": "escola de ferias da puc minas",
+  "main": "index.js",
   "scripts": {
-    "postinstall": "bower update",
-    "prestart": "npm update",
-    "test": "protractor ./e2e/protractor.conf.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anacoimbra/escola-de-ferias.git"
+  },
+  "keywords": [
+    "escola",
+    "bootstrap",
+    "material"
+  ],
+  "author": "Ana Coimbra",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/anacoimbra/escola-de-ferias/issues"
   }
 }

@@ -1,17 +1,26 @@
 {
-  "name": "angular-material-starter",
-  "description": "A starter project for AngularJS Material",
-  "version": "0.0.2",
-  "homepage": "https://github.com/angular/material-start",
+  "name": "escola-de-ferias",
+  "version": "0.0.0",
+  "homepage": "https://github.com/anacoimbra/escola-de-ferias",
+  "authors": [
+    "ana <ana.coimbra.gomes@gmail.com>"
+  ],
+  "description": "Escola de ferias da PUC Minas",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "web",
+    "material",
+    "bootstrap"
+  ],
   "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "angular": "^1.4.6",
-    "angular-animate": "^1.4.6",
-    "angular-aria": "^1.4.6",
-    "angular-material": "^0.11.2"
-  },
-  "devDependencies": {
-    "angular-material": "https://github.com/angular/bower-material.git#master"
-  }
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
