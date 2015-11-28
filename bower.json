@@ -1,29 +1,17 @@
 {
-  "name": "material-design-lite",
-  "version": "1.0.6",
-  "homepage": "https://github.com/google/material-design-lite",
-  "authors": [
-    "Material Design Lite team"
-  ],
-  "description": "Material Design Components in CSS, JS and HTML",
-  "main": [
-    "material.min.css",
-    "material.min.js"
-  ],
-  "keywords": [
-    "material",
-    "design",
-    "styleguide",
-    "style",
-    "guide"
-  ],
-  "license": "Apache-2",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "./lib/.bower_components",
-    "test",
-    "tests"
-  ]
+  "name": "angular-material-starter",
+  "description": "A starter project for AngularJS Material",
+  "version": "0.0.2",
+  "homepage": "https://github.com/angular/material-start",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.4.6",
+    "angular-animate": "^1.4.6",
+    "angular-aria": "^1.4.6",
+    "angular-material": "^0.11.2"
+  },
+  "devDependencies": {
+    "angular-material": "https://github.com/angular/bower-material.git#master"
+  }
 }
