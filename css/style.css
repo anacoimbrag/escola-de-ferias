@@ -10,7 +10,7 @@ body{
   max-width: 70%;
 }
 
-@@media (max-width: 768px) {
+@media (max-width: 768px) {
   .conteudo{
     padding-top: 100px;
     max-width: 100%;
