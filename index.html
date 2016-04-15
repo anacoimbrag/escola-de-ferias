@@ -1,925 +1,357 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Escola de Férias do ICEI</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
 
-    <title>Escola de Férias PUC Minas</title>
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
 
-    <!-- Material Design fonts -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css"/>
-    <link rel="stylesheet" media="screen" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
-    <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css"/>
-    <link rel="stylesheet" href="css/style.css"/>
-
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/bower_components/bootstrap-material-design/dist/js/bootstrap-material-design.js"></script>
-
-  </head>
-  <body>
-    <div class="container-fluid conteudo">
-      <div class="panel panel-default">
-        <div class="panel-body text-center">
-          <img class="img img-responsive center-block" src="img/logo.png"/>
+<body>
+	<header id="header" role="banner">
+		<div class="main-nav">
+			<div class="container">
+				<div class="header-top">
+					<div class="pull-right social-icons">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-youtube"></i></a>
+					</div>
+				</div>
+		        <div class="row">
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		                    <span class="sr-only">Toggle navigation</span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                </button>
+		                <a class="navbar-brand" href="index.html">
+		                	<img class="img-responsive" src="images/logo.png" alt="logo">
+		                </a>
+		            </div>
+		            <div class="collapse navbar-collapse">
+		                <ul class="nav navbar-nav navbar-right">
+		                    <li class="scroll active"><a href="#home">Home</a></li>
+		                    <li class="scroll"><a href="#explore">3ᵃ Edição</a></li>
+		                    <li class="scroll"><a href="#event">Palestrantes</a></li>
+		                    <li class="scroll"><a href="#about">Evento</a></li>
+		                    <li><a class="no-scroll" href="#" target="_blank">Comprar ingressos</a></li>
+		                    <li class="scroll"><a href="#contact">Contato</a></li>
+		                </ul>
+		            </div>
+		        </div>
+	        </div>
         </div>
+    </header>
+    <!--/#header-->
+
+    <section id="home">
+		<div id="main-slider" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#main-slider" data-slide-to="0" class="active"></li>
+				<li data-target="#main-slider" data-slide-to="1"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
+					<div class="carousel-caption">
+						<h2>Faça sua inscrição </h2>
+						<h4>para o simpósio do evento</h4>
+						<a href="#contact">Inscrição de Arrigo <i class="fa fa-angle-right"></i></a>
+					</div>
+				</div>
+				<div class="item">
+					<img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">
+					<div class="carousel-caption">
+						<h2>Envie-nos uma proposta </h2>
+						<h4>para sua palestra/minicurso</h4>
+						<a href="#contact">Inscrição de Palestra <i class="fa fa-angle-right"></i></a>
+					</div>
+				</div>
       </div>
+		</div>
+    </section>
+	<!--/#home-->
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-heading" style="height: 120px; background-image: url('img/glass.jpg'); background-position: top right; background-size: cover">
-              <h3 class="" style="font-size:25px; margin-top: 65px; color: #333;"><b>Segunda Edição</b></h3>
+	<section id="explore">
+		<div class="container">
+			<div class="row">
+				<div class="watch">
+					<img class="img-responsive" src="images/watch.png" alt="">
+				</div>
+				<div class="col-md-4 col-md-offset-2 col-sm-5">
+					<h2>A próxima edição acontecerá em</h2>
+				</div>
+				<div class="col-sm-7 col-md-6">
+					<ul id="countdown">
+						<li>
+							<span class="days time-font">00</span>
+							<p>days </p>
+						</li>
+						<li>
+							<span class="hours time-font">00</span>
+							<p class="">hours </p>
+						</li>
+						<li>
+							<span class="minutes time-font">00</span>
+							<p class="">minutes</p>
+						</li>
+						<li>
+							<span class="seconds time-font">00</span>
+							<p class="">seconds</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="cart">
+				<a href="#"><i class="fa fa-shopping-cart"></i> <span>Comprar Tickets</span></a>
+			</div>
+		</div>
+	</section><!--/#explore-->
+
+	<section id="event">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-9">
+					<div id="event-carousel" class="carousel slide" data-interval="false">
+						<h2 class="heading">OS PALESTRANTES</h2>
+						<a class="even-control-left" href="#event-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+						<a class="even-control-right" href="#event-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+						<div class="carousel-inner">
+							<div class="item active">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/event/event1.jpg" alt="event-image">
+											<h4>Chester Bennington</h4>
+											<h5>Vocal</h5>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/event/event2.jpg" alt="event-image">
+											<h4>Mike Shinoda</h4>
+											<h5>vocals, rhythm guitar</h5>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/event/event3.jpg" alt="event-image">
+											<h4>Rob Bourdon</h4>
+											<h5>drums</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/event/event1.jpg" alt="event-image">
+											<h4>Chester Bennington</h4>
+											<h5>Vocal</h5>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/event/event2.jpg" alt="event-image">
+											<h4>Mike Shinoda</h4>
+											<h5>vocals, rhythm guitar</h5>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="single-event">
+											<img class="img-responsive" src="images/event/event3.jpg" alt="event-image">
+											<h4>Rob Bourdon</h4>
+											<h5>drums</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="guitar">
+					<img class="img-responsive" src="images/board.png" alt="guitar">
+				</div>
+			</div>
+		</div>
+	</section><!--/#event-->
+
+	<section id="about">
+		<div class="guitar2">
+			<img style="margin-left: 10px" class="img-responsive" src="images/ideia.png" alt="guitar">
+		</div>
+		<div class="about-content">
+					<h2>Sobre a Escola de Férias</h2>
+					<p>We have created an extremely positive and relaxed environment all geared towards developing your skills whether you are an absolute beginner trying to get off the ground or an accomplished player looking to move to the next level. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<a href="#" class="btn btn-primary">View Date & Place <i class="fa fa-angle-right"></i></a>
+
+		</div>
+	</section><!--/#about-->
+
+<!--	<section id="twitter">
+		<div id="twitter-feed" class="carousel slide" data-interval="false">
+			<div class="twit">
+				<img class="img-responsive" src="images/twit.png" alt="twit">
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-sm-offset-3">
+					<div class="text-center carousel-inner center-block">
+						<div class="item active">
+							<img src="images/twitter/twitter1.png" alt="">
+							<p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit </p>
+							<a href="#">http://t.co/yY7s1IfrAb 2 days ago</a>
+						</div>
+						<div class="item">
+							<img src="images/twitter/twitter2.png" alt="">
+							<p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit </p>
+							<a href="#">http://t.co/yY7s1IfrAb 2 days ago</a>
+						</div>
+						<div class="item">
+							<img src="images/twitter/twitter3.png" alt="">
+							<p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit </p>
+							<a href="#">http://t.co/yY7s1IfrAb 2 days ago</a>
+						</div>
+					</div>
+					<a class="twitter-control-left" href="#twitter-feed" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+					<a class="twitter-control-right" href="#twitter-feed" data-slide="next"><i class="fa fa-angle-right"></i></a>
+				</div>
+			</div>
+		</div>
+	</section><!--/#twitter-feed-->
+	<section id="sponsor">
+		<div id="sponsor-carousel" class="carousel slide" data-interval="false">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10">
+						<h2>Patrocinadores</h2>
+						<a class="sponsor-control-left" href="#sponsor-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+						<a class="sponsor-control-right" href="#sponsor-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+						<div class="carousel-inner">
+							<div class="item active">
+								<ul>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor1.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor2.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor3.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor4.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor5.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor6.png" alt=""></a></li>
+								</ul>
+							</div>
+							<div class="item">
+								<ul>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor6.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor5.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor4.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor3.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor2.png" alt=""></a></li>
+									<li><a href="#"><img class="img-responsive" src="images/sponsor/sponsor1.png" alt=""></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="light">
+				<img class="img-responsive" src="images/help.png" alt="">
+			</div>
+		</div>
+	</section><!--/#sponsor-->
+
+	<section id="contact">
+		<div id="map">
+			<div id="gmap-wrap">
+	 			<div id="gmap">
+	 			</div>
+	    	</div>
+		</div><!--/#map-->
+		<div class="contact-section">
+			<div class="ear-piece">
+				<img class="img-responsive" src="images/estudantes.png" alt="" style="margin-top: 20px">
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 col-sm-offset-4">
+						<div class="contact-text">
+							<h3>Contato</h3>
+							<address>
+								E-mail: escoladeferias@pucminas.<br>
+								Phone: +55 (31) 3319-4444<br>
+							</address>
+						</div>
+						<div class="contact-address">
+							<h3>Endereço</h3>
+							<address>
+								PUC Minas Coração Eucarístico<br>
+								Rua Dom José Gaspar, 500 <br>
+                Prédio 34 - Coração Eucarístico<br>
+								Belo Horizonte - MG
+							</address>
+						</div>
+					</div>
+					<div class="col-sm-5">
+						<div id="contact-section">
+							<h3>Entre em contato!</h3>
+					    	<div class="status alert alert-success" style="display: none"></div>
+					    	<form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+					            <div class="form-group">
+					                <input type="text" name="name" class="form-control" required="required" placeholder="Nome">
+					            </div>
+					            <div class="form-group">
+					                <input type="email" name="email" class="form-control" required="required" placeholder="Email">
+					            </div>
+					            <div class="form-group">
+					                <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="O que você deseja saber?"></textarea>
+					            </div>
+					            <div class="form-group">
+					                <button type="submit" class="btn btn-primary pull-right">Enviar</button>
+					            </div>
+					        </form>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!--/#contact-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="text-center">
+                <p> Copyright  &copy;2014<a target="_blank" href="http://icei.pucminas.br/escoladeferias"> ICEI Escola de Férias </a>. Todos os direitos reservados. <br> Design adaptado por Ana Coimbra</p>
             </div>
-            <div class="panel-body">
-              <p>Vem aí a Segunda Edição da Escola de Férias da PUC Minas. Agora com
-              os cursos de <b>Computação</b>, <b>Física</b> e <b>Matemática</b>.</p>
-              <p>São diversos cursos, minicursos e palestras com assuntos interessantes
-              e atuais feitos especialmente para vocês alunos aprimorar o conhecimento
-              e ajudar na carreira profissional.</p>
-            </div>
-          </div>
         </div>
+    </footer>
+    <!--/#footer-->
 
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-heading" style="height: 120px; background-image: url('img/pen.jpg'); background-position: left; background-repeat: no-repeat">
-              <h3 class="panel-title" style="font-size:25px; margin-top: 65px; color: #333;"><b>Avisos Importantes</b></h3>
-            </div>
-            <div class="panel-body">
-              <p>
-                <ul>
-                  <li><b>Credenciamento</b><br/>Ao comparecer para o seu primeiro curso,
-                    apresente-se no prédio 34 para realizar o credenciamento.</li>
-                  <li><b>Doações</b><br/>Pedimos que levem, ao evento um pacote de fralda geriátrica
-                  (preferencialmente), ou produto de higiene pessoal de valor equivalente,
-                  que serão doados às instituições assistidas pela Pastoral da PUC Minas
-                  BH. Na chegada ao evento, confirme o(a) funcionário(a) responsável.
-                  No credenciamento, na chegada de cada um, a doação será recolhida. </li>
-                  <li><b>Salas</b><br/>Verifique <a href="salas.pdf" target="_blank">aqui</a> em quais salas ocorrerão cada minicurso</li>
-                </ul>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <div class="panel panel-default">
-            <div class="panel-heading" style="height: 120px; background-image: url('img/schedule.jpg'); background-position: left; background-repeat: no-repeat">
-              <h3 class="panel-title" style="font-size:25px; margin-top: 65px; color: #333;"><b>Programação</b></h3>
-            </div>
-            <div class="panel-body text-center">
-              <h4>Quarta 09/12</h4>
-              <table class="table table-bordered table-responsive">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>A Confirmar</th>
-                    <th>A Confirmar</th>
-                    <th>A Confirmar</th>
-                    <th>A Confirmar</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th>08:00</th>
-                    <td rowspan="4"><b>Encerramento PAN (MIC PUC Minas)</b><br/>Sandro Jerônimo</td>
-                    <td rowspan="2"></td>
-                    <td rowspan="4"></td>
-                    <td rowspan="4"></td>
-                  </tr>
-                  <tr>
-                    <th>09:00</th>
-                  </tr>
-                  <tr>
-                    <th>10:00</th>
-                    <td rowspan="2"><b>Redes Definidas por Software</b><br/>Talles, Guilherme e Lucas</td>
-                  </tr>
-                  <tr>
-                    <th>11:00</th>
-                  </tr>
-                  <tr>
-                    <th>12:00</th>
-                    <td class="active" colspan="4"><b>Almoço</b></td>
-                  </tr>
-                  <tr>
-                    <th>13:00</th>
-                    <td rowspan="2"><b>Ferramentas Computacionais (Parte I)</b><br/>Profª Vânia Aguiar / Prof. Fernando Camilo</td>
-                    <td rowspan="2"><b>Caos na Base 2</b><br/>Profª Cláudia Tavares</td>
-                    <td rowspan="4"><b>Xamarin</b><br/>Leonardo</td>
-                  </tr>
-                  <tr>
-                    <th>14:00</th>
-                    <td><b>Maleta do Magnetismo</b><br/>Bruno Eugênio</td>
-                  </tr>
-                  <tr>
-                    <th>15:00</th>
-                    <td rowspan="2"><b>Química Atmosférica e Poluição do Ar</b><br/>Prof. Aírton Rímulo</td>
-                    <td rowspan="2"><b>Como montar uma boa Apresentação - Parte I</b><br/>Prof. Carlos Augusto</td>
-                    <td rowspan="4"></td>
-                  </tr>
-                  <tr>
-                    <th>16:00</th>
-                  </tr>
-                  <tr>
-                    <th>17:00</th>
-                    <td rowspan="2"><b>Fortran</b><br/>Lucas Porto</td>
-                    <td rowspan="2"><b>Introdução ao JavaScript - Parte I</b><br/>Lucas Mendes</td>
-                    <td rowspan="2"></td>
-                  </tr>
-                  <tr>
-                    <th>18:00</th>
-                  </tr>
-                </tbody>
-              </table>
-
-              <h4>Quinta 10/12</h4>
-              <table class="table table-bordered table-responsive">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>A Confirmar</th>
-                    <th>A Confirmar</th>
-                    <th>A Confirmar</th>
-                    <th>A Confirmar</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th>09:00</th>
-                    <td rowspan="2"><b>Indrodução ao LaTeX</b><br/>Paula</td>
-                    <td rowspan="3"></td>
-                    <td rowspan="3"></td>
-                    <td rowspan="3"></td>
-                  </tr>
-                  <tr>
-                    <th>10:00</th>
-                  </tr>
-                  <tr>
-                    <th>11:00</th>
-                    <td><b>Como usar a mineração de dados a favor do seu negócio?</b><br/>Fabrício Mendonça</td>
-                  </tr>
-                  <tr>
-                    <th>12:00</th>
-                    <td class="active" colspan="4"><b>Almoço</b></td>
-                  </tr>
-                  <tr>
-                    <th>13:00</th>
-                    <td rowspan="2"><b>Ferramentas Computacionais (Parte II)</b><br/>Profª Vânia Aguiar / Prof. Fernando Camilo</td>
-                    <td rowspan="2"><b>Ciência Cine-Clube - O Jogo da Imitação</b><br/>Prof. Stephen Simin</td>
-                    <td rowspan="3"><b>Introdução ao JavaScript - Parte II</b><br/>Lucas Mendes</td>
-                  </tr>
-                  <tr>
-                    <th>14:00</th>
-                    <td>Prof. Ronaldo Pimentel</td>
-                  </tr>
-                  <tr>
-                    <th>15:00</th>
-                    <td rowspan="2"><b>Dinâmica da Física de Partículas</b><br/>Clóvis Guerim</td>
-                    <td rowspan="2"></td>
-                    <td rowspan="4"></td>
-                  </tr>
-                  <tr>
-                    <th>16:00</th>
-                    <td><b>Yes, we can Py it!</b><br/>Ana Paula Gomes</td>
-                  </tr>
-                  <tr>
-                    <th>17:00</th>
-                    <td rowspan="2"><b>Parque da Matemática</b></td>
-                    <td rowspan="2"><b>Windows Phone</b><br/>Samuel Santos</td>
-                    <td></td>
-                  </tr>
-                  <tr>
-                    <th>18:00</th>
-                    <td><b>Motion Design</b><br/>Lucas Maia</td>
-                  </tr>
-                </tbody>
-              </table>
-
-              <h4>Sexta 11/12</h4>
-              <table class="table table-bordered table-responsive">
-                <thead>
-                  <tr>
-                    <th></th>
-                    <th>A Confirmar</th>
-                    <th>A Confirmar</th>
-                    <th>A Confirmar</th>
-                    <th>A Confirmar</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th>09:00</th>
-                    <td rowspan="2"><b>AngularJs</b><br/>Ciro Nunes</td>
-                    <td rowspan="2"></td>
-                    <td rowspan="2"></td>
-                    <td rowspan="2"></td>
-                  </tr>
-                  <tr>
-                    <th>10:00</th>
-                  </tr>
-                  <tr>
-                    <th>11:00</th>
-                    <td class="active" colspan="4"><b>Almoço</b></td>
-                  </tr>
-                  <tr>
-                    <th>13:00</th>
-                    <td rowspan="2"><b>Ferramentas Computacionais (Parte III)</b><br/>Profª Vânia Aguiar / Prof. Fernando Camilo</td>
-                    <td rowspan="2"><b>Mais um passeio pela Quarta Dimensão</b><br/>Prof. Tomás Aquino</td>
-                    <td rowspan="4"><b>Programação em C</b><br/>Pedro Penna</td>
-                    <td rowspan="2"><b>Física estatística de Redes Cerebrais</b><br/>Ronald Dickman</td>
-                  </tr>
-                  <tr>
-                    <th>14:00</th>
-                  </tr>
-                  <tr>
-                    <th>15:00</th>
-                    <td rowspan="2"><b>Avaliações Governamentais</b><br/>Prof. Révero Campos</td>
-                    <td rowspan="2"><b>Radiação do Corpo Negro - Introdução a Física Quântica</b><br/>Wellington Damaceno</td>
-                    <td rowspan="2"><b>Como Montar uma Boa Apresentação - Parte II</b><br>Prof. Carlos Augusto</td>
-                  </tr>
-                  <tr>
-                    <th>16:00</th>
-                  </tr>
-                  <tr>
-                    <th>17:00</th>
-                    <td rowspan="2"><b>Parque da Matemática</b></td>
-                    <td rowspan="2"><b>Efeito Fotoelétrico - Constante de Planc</b><br/>Ramon Júnio</td>
-                    <td rowspan="2"><b>Cloud e Amazon Web Services</b><br/>Walisson Marra</td>
-                    <td rowspan="2"></td>
-                  </tr>
-                  <tr>
-                    <th>18:00</th>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel panel-warning" id="cineclube">
-            <div class="panel-heading">
-              <h4 class="panel-title">Ciência Cine-Clube - O Jogo da Imitação</h4>
-            </div>
-            <div class="panel-body">
-              <div class="list-group">
-                <div class="list-group-item">
-                  <div class="row-picture">
-                    <img class="circle" src="img/user.png" alt="icon">
-                  </div>
-                  <div class="row-content">
-                    <h4 class="list-group-item-heading">Professor Stephen Simin</h4>
-
-                    <p class="list-group-item-text">
-                      PUC Minas - ICEI
-                    </p>
-                  </div>
-                  <div class="list-group-separator"></div>
-                  <p>  Em 1951, dois policiais investigam o matemático Alan Turing após
-                  o que aparenta ser uma invasão de sua casa. Suspeitando de seu
-                  comportamento e falta de registros de guerra, decidem interrogar
-                  Turing com medo que ele seja um espião. Turing então revela que
-                  na verdade foi parte de um projeto secreto da inteligência
-                  britânica em Bletchley Park. Além de mostrar Turing na infância
-                  em 1927, se apaixonando por um colega em um colégio interno
-                  antes deste morrer de pneumonia bovina, segue-se o matemático
-                  durante a Segunda Guerra Mundial, trabalhando com um grupo de
-                  criptografia para decodificar a máquina Enigma, usada pela
-                  Alemanha Nazista para tornar suas mensagens incompreensíveis
-                  em caso de interceptação pelo inimigo.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="panel panel-warning" id="cineclube">
-            <div class="panel-heading">
-              <h4 class="panel-title">Fortran</h4>
-            </div>
-            <div class="panel-body">
-              <div class="list-group">
-                <div class="list-group-item">
-                  <div class="row-picture">
-                    <img class="circle" src="img/user.png" alt="icon">
-                  </div>
-                  <div class="row-content">
-                    <h4 class="list-group-item-heading">Lucas Porto</h4>
-
-                    <p class="list-group-item-text">
-                      PUC Minas
-                    </p>
-                  </div>
-                  <p>
-                    Atualmente aluno de bacharelado em ciência da computação da
-                    PUC MINAS, presidente do capítulo da computer society PUC
-                    MINAS, trabalhou com a linguagem Fortran em uma pesquisa de
-                    modelo de simulação espaço-temporal de dinâmica de nuvens com
-                    autômato celular coordenado pelo prof. Maury Meirelles Gouvêa Júnior.
-                  </p>
-                  <div class="list-group-separator"></div>
-                  <p>A linguagem de programação Fortran, realizar operações com
-                    matrizes e números flutuantes, subroutines leitura de arquivos e strings.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel panel-warning" id="cineclube">
-            <div class="panel-heading">
-              <h4 class="panel-title">puc.min.js: Introdução à JavaScript</h4>
-            </div>
-            <div class="panel-body">
-              <div class="list-group">
-                <div class="list-group-item">
-                  <div class="row-picture" >
-                    <img class="circle" src="img/lucasmendes.jpg" alt="icon">
-                  </div>
-                  <div class="row-content">
-                    <h4 class="list-group-item-heading">Lucas Mendes</h4>
-                    <p class="list-group-item-text">
-                      PUC Minas
-                    </p>
-                  </div>
-                  <p>
-                     Desenvolvedor há 8 anos, especialista em design e arquitetura
-                     de aplicações server-side, trabalhando profissionalmente com
-                     PHP e JavaScript há 5 anos, atualmente CTO/Founder da @gocaravane
-                     e Backend Lead Engineer na @isetbr. Apaixonado por programação e
-                     inovação, comediante de Twitter e escritor nas horas vagas.
-                  </p>
-                  <div class="list-group-separator"></div>
-                  <p> O mercado web e mobile está evoluindo rapidamente e quando
-                    pensamos em programação para web, um dos nomes mais fortes
-                    que nos vem à mente é JavaScript, uma linguagem de alto nível,
-                    dinâmica e interpretada que tem ganhado muito destaque nos
-                    últimos anos e neste mini curso vamos ver uma breve introdução
-                    do que é JavaScript, suas aplicações e um pouco da estrutura
-                    que a linguagem nos fornece.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="panel panel-warning" id="cineclube">
-            <div class="panel-heading">
-              <h4 class="panel-title">Cloud e Amazon Web Services</h4>
-            </div>
-            <div class="panel-body">
-              <div class="list-group">
-                <div class="list-group-item">
-                  <div class="row-picture">
-                    <img class="circle" src="img/walisson.jpg" alt="icon">
-                  </div>
-                  <div class="row-content">
-                    <h4 class="list-group-item-heading">Walisson Marra</h4>
-
-                    <p class="list-group-item-text">
-                      DevOps Manager - iSET
-                    </p>
-                  </div>
-                  <p>
-                      Profissional da web a mais de 8 anos com conhecimentos sólidos
-                      em Design Patterns, MongoDB, PHP e NodeJS. Apaixonado por
-                      Cloud Computing e responsável por mais de 10 ambientes em
-                      produção na Amazon AWS com garantia de SLA de 99.9% de uptime por ano.
-                  </p>
-                  <div class="list-group-separator"></div>
-                  <p>Serviços cloud são cada vez mais comuns entre grandes, médias
-                    e micro empresas reduzindo seus custos e elevando o tempo de
-                    uptime de suas aplicações. Nesta apresentação faremos uma
-                    introdução sobre este poder computacional em constante crescimento
-                    e evolução, abordando os serviços da Amazon AWS e como utilizá-los
-                     para adiquirir uma escalabilidade estável em suas aplicações.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel panel-warning" id="cineclube">
-            <div class="panel-heading">
-              <h4 class="panel-title">Yes, we can Py it!</h4>
-            </div>
-            <div class="panel-body">
-              <div class="list-group">
-                <div class="list-group-item">
-                  <div class="row-picture" >
-                    <img class="circle" src="img/anapaula.jpg" alt="icon">
-                  </div>
-                  <div class="row-content">
-                    <h4 class="list-group-item-heading">Ana Paula Gomes</h4>
-                    <p class="list-group-item-text">
-                      GDG BH
-                    </p>
-                  </div>
-                  <p>
-                    Ana Paula é baiana com muito orgulho, inquieta, curiosa e
-                    completamente apaixonada por tecnologia. Atualmente faz o
-                    mestrado em Ciência da Computação na UFMG. É organizadora
-                    do Google Developers Group e do Women Techmakers, ambos de
-                    Belo Horizonte. Sua linguagem do coração é o Python. Adora
-                    viajar, boas conversas (preferencialmente acompanhada de
-                    uma gelada) e pensar em aplicativos que tornem a vida das
-                    pessoas melhor. Nas horas vagas é titular do time de futsal
-                    Boas Esporte.
-                  </p>
-                  <div class="list-group-separator"></div>
-                  <p>  Python é uma linguagem de programação muito poderosa com
-                    sintaxe fácil. Além de ter uma comunidade bastante ativa ao
-                    redor do mundo, empresas como Google, Spotify e Dropbox a
-                    utiliza em seus serviços, contrariando o Dollynho Developer.
-                    Nesta palestra vamos falar sobre o Python e mostrar ao vivo
-                    como começar seus códigos com essa linguagem fantástica!</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="panel panel-warning" id="cineclube">
-            <div class="panel-heading">
-              <h4 class="panel-title">Motion Design</h4>
-            </div>
-            <div class="panel-body">
-              <div class="list-group">
-                <div class="list-group-item">
-                  <div class="row-picture">
-                    <img class="circle" src="img/lucasmaia.jpg" alt="icon">
-                  </div>
-                  <div class="row-content">
-                    <h4 class="list-group-item-heading">Lucas Maia</h4>
-                    <p class="list-group-item-text">
-                      Web Developer
-                    </p>
-                  </div>
-                  <p>
-                    Lucas Maia e Silva é programador desde 2010, onde atuava
-                    paralelamente em projetos com PHP, já foi professor de
-                    Desenvolvimento WEB em projetos governamentais como Inclusão
-                    digital, é bacharel em Ciência da Computação, já palestrou
-                    em eventos online (devsgroup) e eventos presenciais como
-                    GDG Experience, atualmente mantém um blog sobre desenvolvimento
-                    WEB para Iniciantes tanto em Front-End quanto em BackEnd,
-                    certificado pela Mongo University em MongoDB e NodeJS.
-                  </p>
-                  <div class="list-group-separator"></div>
-                    <p>Estudo dos movimentos e a arte de se aplicar elementos da
-                      física no mundo da computação, ou seja, trabalhar a percepção
-                      do cérebro a observar o mundo orgânico e adaptar ao digital.
-                      Confirme sua presença e saiba mais sobre Motion Design!
-                    </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel panel-warning" id="cineclube">
-            <div class="panel-heading">
-              <h4 class="panel-title">Introdução ao LaTeX</h4>
-            </div>
-            <div class="panel-body">
-              <div class="list-group">
-                <div class="list-group-item">
-                  <div class="row-picture">
-                    <img class="circle" src="img/paula.jpg" alt="icon">
-                  </div>
-                  <div class="row-content">
-                    <h4 class="list-group-item-heading">Paula Raissa</h4>
-
-                    <p class="list-group-item-text">
-                      Mestrado PUC Minas
-                    </p>
-                  </div>
-                  <p>
-                    Formada em Sistemas de Informação pela PUC Minas e atualmente
-                    fazendo mestrado. Com experiência em Mineração de dados,
-                    análise formal de conceitos, redes complexas e análise de redes sociais.
-                  </p>
-                  <div class="list-group-separator"></div>
-                  <p>TEORIA:<br/>
-                    <ul>
-                      <li>Introdução ao Latex</li>
-                      <li>Características</li>
-                      <li>Vantagens e Desvantagens</li>
-                      <li>Editores Latex</li>
-                    </ul>
-                      PRÁTICA
-                      <ul>
-                        <li>Exemplo 1: Olá Mundo
-                          Iniciar um projeto no Texmaker, criar seções, seleção de línguas, inserir pacotes,
-                          figuras, tabelas, equações, rodapé, citações, itens, enumerados.
-                        </li>
-                        <li>Exemplo 2: Padrão PUC
-                          Formatação de um pequeno trabalho com os principais elementos do padrão.
-                        </li>
-                        <li>Exemplo 3: Padrão SBC
-                          Formatação de um pequeno texto com os principais elementos do padrão utilizando a
-                          ferramenta online ShareLatex.
-                        </li>
-                      </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="panel panel-warning" id="cineclube">
-            <div class="panel-heading">
-              <h4 class="panel-title">Programação em C</h4>
-            </div>
-            <div class="panel-body">
-              <div class="list-group">
-                <div class="list-group-item">
-                  <div class="row-picture">
-                    <img class="circle" src="img/pedropenna.jpg" alt="icon">
-                  </div>
-                  <div class="row-content">
-                    <h4 class="list-group-item-heading">Pedro Penna</h4>
-
-                    <p class="list-group-item-text">
-                      PUC Minas
-                    </p>
-                  </div>
-                  <p>
-                    Pedro H. Penna é bacharelando em Ciências da Computação pela
-                    Pontifícia Universidade Católica de Minas Gerais (PUC Minas)
-                    e pesquisador no Grupo de Pesquisa em Arquitetura de Computadores
-                    e Programação Paralela (CArT). Em 2012, Pedro permaneceu um
-                    ano em Grenoble (França) como estudante bolsista do programa
-                    Ciências sem Fronteiras (CsF). Lá, frequentou o programa de
-                    Mestrado em Ciência da Computação (MOSIG) da Université Joseph
-                    Fourier (UJF) e atou como estagiário em pesquisa no grupo
-                    Nanosim, do Laboratoire d'Informatique de Grenoble (LIG).
-                    Pedro possui experiência de pesquisa nas áreas de Sistemas
-                    Operacionais e Arquiteturas Paralelas, e interesse pelas
-                    áreas de Computação de Alto Desempenho e Inteligência Artificial.
-                  </p>
-                  <div class="list-group-separator"></div>
-                  <p>C vs C++; Makefiles; Manipulação de Ponteiros; Estruturas
-                    Abstratas; Organização de Projetos; Gerência de Escopo; Objetos
-                    Opacos; Interfaces Genéricas; Verificação de Tipos</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-      <div class="col-md-12">
-        <div class="panel panel-warning" id="cineclube">
-          <div class="panel-heading">
-            <h4 class="panel-title">AngularJS</h4>
-          </div>
-          <div class="panel-body">
-            <div class="list-group">
-              <div class="list-group-item">
-                <div class="row-picture">
-                  <img class="circle" src="img/ciro.jpg" alt="icon">
-                </div>
-                <div class="row-content">
-                  <h4 class="list-group-item-heading">Ciro Nunes</h4>
-
-                  <p class="list-group-item-text">
-                    Google Developer Expert - Angular
-                  </p>
-                </div>
-                <p>
-                  Ciro é Senior Front-end Engineer na empresa canadense Questrade
-                  e Google Developer Expert desde 2014 em Angular. Ministra
-                  palestras, cursos e treinamentos sobre Angular, além de participar
-                  da revisão de livros, escrever artigos e organizar encontros
-                  gratuitos para a comunidade de Belo Horizonte. Também contribui
-                  com diversos projetos open source, principalmente o Angular,
-                  angular-cli e Karma.
-                </p>
-                <div class="list-group-separator"></div>
-                <p>
-                  <b>Objetivo (o que):</b> Fazer com que o público queira aprender mais sobre o Angular<br/>
-                  <b>Como:</b> Ensinando a criar uma aplicação básica e mostrando como podemos fazer melhor se aprendermos mais sobre a ferramenta
-                  <table class="table hidden-sm hidden-xs">
-                    <tr>
-                      <td>
-                  <ul>
-                    <li>A história do Angular resumida da versão 0.x a 2.0</li>
-                    <li>TypeScript
-                      <ol>
-                        <li>O que é?</li>
-                        <li>Features</li>
-                          <ol>
-                            <li>Typings</li>
-                            <li>Annotations</li>
-                            <li>Interfaces</li>
-                            <li>async/await</li>
-                          </ol>
-                        </ol>
-                      </li>
-                      <li >Angular 2
-                        <ol>
-                          <li>Visão geral arquitetural</li>
-                          <li>Component</li>
-                          <li>Template</li>
-                          <li>Metadata</li>
-                          <li>Data binding</li>
-                          <li>Directive</li>
-                          <li>Service</li>
-                          <li>Dependency Injection</li>
-                        </ol>
-                      </li>
-                        </td>
-                        <td>
-                      <li>Criando a primeira aplicação Angular 2 e TypeScript
-                        <ol>
-                          <li>Setup
-                            <ol>
-                              <li>Clonando o projeto de ponto de partida</li>
-                              <li>Rodando o projeto no navegador</li>
-                            </ol>
-                          </li>
-                          <li>Criando o primeiro componente
-                              <ol>
-                                <li>Modules</li>
-                                <li>Annotations</li>
-                                <li>Classes</li>
-                              </ol>
-                            </li>
-                            <li>Bootstrap
-                              <ol>
-                                <li>Importando módulos customizados</li>
-                              </ol>
-                            </li>
-                            <li>Explorando componentes
-                              <ol>
-                                <li>Template Syntax</li>
-                                <li>Input/Output</li>
-                                <li>Lifecycle</li>
-                              </ol>
-                            </li>
-                            <li>Usando Services para organizar os dados</li>
-                            <li>Filtrando dados com Pipes</li>
-                            <li>Router
-                              <ol>
-                                <li>Configurando o roteador da aplicação</li>
-                                <li>Criando as rotas</li>
-                              </ol>
-                            </li>
-                            <li>Comunicando com o servidor HTTP
-                              <ol>
-                                <li>Observables
-                                  <ul>
-                                    <li>Subscribe to events</li>
-                                  </ul>
-                                </li>
-                              </ol>
-                            </li>
-                          </ol>
-                          </li>
-                          <li>Próximos passos
-                            <ol>
-                              <li>Reactive Programming</li>
-                              <li>Unit testing</li>
-                              <li>E2E Testing</li>
-                            </ol>
-                          </li>
-                        </ol>
-                      </td>
-                    </tr>
-                  </table>
-
-                  <ul class="hidden-lg hidden-md">
-                    <li>A história do Angular resumida da versão 0.x a 2.0</li>
-                    <li>TypeScript
-                      <ol>
-                        <li>O que é?</li>
-                        <li>Features</li>
-                          <ol>
-                            <li>Typings</li>
-                            <li>Annotations</li>
-                            <li>Interfaces</li>
-                            <li>async/await</li>
-                          </ol>
-                        </ol>
-                      </li>
-                      <li >Angular 2
-                        <ol>
-                          <li>Visão geral arquitetural</li>
-                          <li>Component</li>
-                          <li>Template</li>
-                          <li>Metadata</li>
-                          <li>Data binding</li>
-                          <li>Directive</li>
-                          <li>Service</li>
-                          <li>Dependency Injection</li>
-                        </ol>
-                      </li>
-                        </td>
-                        <td>
-                      <li>Criando a primeira aplicação Angular 2 e TypeScript
-                        <ol>
-                          <li>Setup
-                            <ol>
-                              <li>Clonando o projeto de ponto de partida</li>
-                              <li>Rodando o projeto no navegador</li>
-                            </ol>
-                          </li>
-                          <li>Criando o primeiro componente
-                              <ol>
-                                <li>Modules</li>
-                                <li>Annotations</li>
-                                <li>Classes</li>
-                              </ol>
-                            </li>
-                            <li>Bootstrap
-                              <ol>
-                                <li>Importando módulos customizados</li>
-                              </ol>
-                            </li>
-                            <li>Explorando componentes
-                              <ol>
-                                <li>Template Syntax</li>
-                                <li>Input/Output</li>
-                                <li>Lifecycle</li>
-                              </ol>
-                            </li>
-                            <li>Usando Services para organizar os dados</li>
-                            <li>Filtrando dados com Pipes</li>
-                            <li>Router
-                              <ol>
-                                <li>Configurando o roteador da aplicação</li>
-                                <li>Criando as rotas</li>
-                              </ol>
-                            </li>
-                            <li>Comunicando com o servidor HTTP
-                              <ol>
-                                <li>Observables
-                                  <ul>
-                                    <li>Subscribe to events</li>
-                                  </ul>
-                                </li>
-                              </ol>
-                            </li>
-                          </ol>
-                          </li>
-                          <li>Próximos passos
-                            <ol>
-                              <li>Reactive Programming</li>
-                              <li>Unit testing</li>
-                              <li>E2E Testing</li>
-                            </ol>
-                          </li>
-                        </ol>
-                      </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6">
-        <div class="panel panel-warning" id="cineclube">
-          <div class="panel-heading">
-            <h4 class="panel-title">Como usar a mineração de dados (data mining) a favor do meu negócio?</h4>
-          </div>
-          <div class="panel-body">
-            <div class="list-group">
-              <div class="list-group-item">
-                <div class="row-picture">
-                  <img class="circle" src="img/user.png" alt="icon">
-                </div>
-                <div class="row-content">
-                  <h4 class="list-group-item-heading">Fabrício Mendonça</h4>
-
-                  <p class="list-group-item-text">
-                    FIAT
-                  </p>
-                </div>
-                <p>
-                  Doutor em Ciência da Informação pela UFMG (2015), com período
-                  de pesquisa realizado no instituto INESC da Faculdade de Engenharia
-                  da Universidade do Porto, Portugal.
-                  <br/>Mestre em Informática pela PUC-MG (2009), Especialista em
-                  Gestão de Saúde pela PUC-MG (2004) e Bacharel em Ciência da Computação pela PUC-MG (2002).
-                  <br/>Atualmente é professor de pós-graduação no IGTI (Instituto
-                  de Gestão em Tecnologia da Informação) e IETEC (Instituto de
-                  Educação Tecnológica) e professor de graduação na Universidade
-                  Salgado de Oliveira (UNIVERSO).
-                  <br/>Possui experiência acadêmica no ensino e coordenação de
-                  curso, tendo atuado como professor e coordenador do curso de
-                  Ciência da Computação na Faculdade Pitágoras BH por 6 anos e meio.
-                  <br/>Possui experiência profissional na área de TI,  tendo atuado
-                  por 8 anos como Analista de Sistemas, Gerente de Projetos e
-                  Administrador de Banco de Dados (DBA) nas empresas SIM - Instituto de Gestão Fiscal e Geotech.
-                </p>
-                <div class="list-group-separator"></div>
-                <p>
-                  Em tempos de concorrência global e explosão informacional com
-                  Big Data, a importância do tratamento analítico dos dados das
-                  bases de dados das organizações tem se tornado mais que uma
-                  necessidade, uma questão de sobrevivência no mercado. Na palestra
-                  como usar a mineração de dados a favor do meu negócio, apresenta-se
-                  uma introdução aos conceitos e possíveis aplicações da mineração de
-                  dados que podem agilizar e potencializar os processos decisórios nas
-                  organizações e também dicas e orientações para profissionais e
-                  pesquisadores, em geral, que desejam ingressar nas áreas de
-                  Data Mining e Análise de Dados.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="panel panel-warning" id="cineclube">
-          <div class="panel-heading">
-            <h4 class="panel-title">Programação em C</h4>
-          </div>
-          <div class="panel-body">
-            <div class="list-group">
-              <div class="list-group-item">
-                <div class="row-picture">
-                  <img class="circle" src="img/guilherme.jpg" alt="icon">
-                </div>
-                <div class="row-content">
-                  <h4 class="list-group-item-heading">Guilherme Rodrigues</h4>
-
-                  <p class="list-group-item-text">
-                    Mestrado PUC Minas
-                  </p>
-                </div>
-                <p>
-                  Bacharel em Ciência da Computação e mestrando em Informática
-                  pela Pontifícia Universidade Católica de Minas Gerais (PUC-MG).
-                  Experiências como analista de redes na empresa PRODABEL e analista
-                  de business intelligence na empresa Vale. Atualmente é bolsista de
-                  mestrado e co-founder da Docto. Principais áreas de interesse
-                  são redes de celular, redes definidas por software e programação web.
-                </p>
-                <div class="list-group-separator"></div>
-                <p><ul>
-                  <li>SDN – O futuro das redes
-                    <br/>Abordagem teórica e prática. Os seguintes itens serão abordados:
-                    <ul>
-                      <li>Teórica:
-                      <ul>
-                        <li>Introdução a SDN</li>
-                        <li>Componentes de um sistema baseado em SDN’s</li>
-                        <li>Programação dos elementos de rede</li>
-                        <li>Particionamento de recursos (virtualização)</li>
-                        <li>Controladores de rede</li>
-                        <li>Aplicações</li>
-                        <li>Desafios</li>
-                      </ul>
-                      </li>
-                      <li>Prática
-                        <ul>
-                          <li>Utilização do Mininet para prototipação de SDN</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                </ul></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    </div>
-
-    <script type="text/javascript">
-    $(document).ready(function($) {
-      $('#myModal').modal('toggle');
-    });
-    </script>
-
-  </body>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  	<script type="text/javascript" src="js/gmaps.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/coundown-timer.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
