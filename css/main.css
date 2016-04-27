@@ -478,7 +478,7 @@ h2 {
 }
 
 .about-content {
-  width: 50%;
+  width: 75%;
    background-image: url("../images/about-bg.jpg");
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -537,9 +537,9 @@ h2 {
 
 #twitter-feed .item img {
   display: inline-block;
-  width: 78px;
+/*  width: 78px;
   height: 78px;
-  border-radius: 50%;
+  border-radius: 50%;*/
   background-color: #c5c8ce;
   padding: 5px;
   margin-bottom: 30px;
@@ -564,8 +564,8 @@ h2 {
 .twitter-control-right {
   position: absolute;
   color: #00c3ff;
-  top: 59%;
-  font-size: 24px
+  top: 39%;
+  font-size: 60px
 }
 
 .twitter-control-left {
